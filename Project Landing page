@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Productivity Hub</title>
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      color: #fff;
+      line-height: 1.6;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 60px;
+    }
+
+    header h1 {
+      font-size: 1.8rem;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    nav a {
+      margin-left: 25px;
+      text-decoration: none;
+      color: #fff;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffdd57;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 100px 20px;
+    }
+
+    .hero h2 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .hero button {
+      background: #ffdd57;
+      color: #333;
+      padding: 12px 30px;
+      font-size: 1rem;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .hero button:hover {
+      background: #ffcc00;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      padding: 60px;
+      background: #fff;
+      color: #333;
+    }
+
+    .feature-card {
+      background: #f9f9f9;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+      transition: 0.3s;
+      text-align: center;
+    }
+
+    .feature-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .feature-card h3 {
+      margin-bottom: 15px;
+      font-size: 1.5rem;
+      color: #764ba2;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #222;
+      margin-top: 30px;
+    }
+
+    footer p {
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Productivity Hub</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Features</a>
+      <a href="#">Pricing</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Boost Your Productivity</h2>
+    <p>All your tasks, notes, reminders, and progress tracking in one place. Stay organized and achieve your goals with Productivity Hub.</p>
+    <button>Get Started</button>
+  </section>
+
+  <section class="features">
+    <div class="feature-card">
+      <h3>📋 Task Management</h3>
+      <p>Organize tasks, set priorities, and never miss a deadline again.</p>
+    </div>
+    <div class="feature-card">
+      <h3>⏰ Smart Reminders</h3>
+      <p>Get timely reminders for meetings, deadlines, and important events.</p>
+    </div>
+    <div class="feature-card">
+      <h3>📊 Analytics</h3>
+      <p>Track your productivity trends and improve your daily routine.</p>
+    </div>
+    <div class="feature-card">
+      <h3>📝 Notes</h3>
+      <p>Keep all your important ideas and notes neatly organized.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Productivity Hub. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
